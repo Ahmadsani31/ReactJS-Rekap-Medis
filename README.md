@@ -1,7 +1,37 @@
-# TailAdmin React - Free React Tailwind Admin Dashboard Template
+# Rekap Medis
 
-TailAdmin is a free and open-source admin dashboard template built on **React and Tailwind CSS**, providing developers with everything they need to create a comprehensive, data-driven back-end, 
-dashboard, or admin panel solution for upcoming web projects.
+Aplikasi rekap medis sederhana menggunakan reactJS dengan TailAdminCSS untuk template Dashboard dan laravel untuk backendnya via result api laravel 11 with jwt.
+
+
+## Prerequisites
+
+- react 18
+
+## Steps to Install
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/Ahmadsani31/ReactJS-Rekap-Medis.git
+   ```
+   
+   ```bash
+   cd reactjs-rekap-medis
+   ```
+
+   ```bash
+   npm install
+   ```
+
+   ```bash
+   npm run dev
+   npm run build
+   ```
+##
+
+# TailAdmin
 
 [![tailwind react admin template](https://ucarecdn.com/d2a6daed-eb9c-4c2f-8a95-4419c450e23a/tailadminreact.jpg)](https://react-demo.tailadmin.com/)
 
