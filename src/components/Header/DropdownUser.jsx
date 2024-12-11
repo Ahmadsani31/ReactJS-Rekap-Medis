@@ -5,7 +5,7 @@ import UserOne from '../../images/user/user-01.png';
 
 import { AppContext } from '../../Context/AppContext';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 const DropdownUser = () => {
 

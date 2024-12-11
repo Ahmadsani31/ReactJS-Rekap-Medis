@@ -5,7 +5,7 @@ import { useContext, useState } from 'react';
 import { AppContext } from '@/Context/AppContext';
 import axios from 'axios';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Edit() {
     const { token } = useContext(AppContext);

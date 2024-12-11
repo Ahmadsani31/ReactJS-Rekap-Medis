@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { AppContext } from '@/Context/AppContext';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Dashboard() {
     const { token } = useContext(AppContext);

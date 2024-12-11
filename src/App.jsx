@@ -26,7 +26,6 @@ import SignUp from './pages/Authentication/SignUp';
 import SignIn from './pages/Authentication/SignIn';
 import { AppContext } from './Context/AppContext'
 
-import API_URL from './config/api';
 import PrivateRoute from './PrivateRoute.jsx';
 
 function App() {

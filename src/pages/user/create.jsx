@@ -6,7 +6,7 @@ import { AppContext } from '@/Context/AppContext';
 import axios from 'axios';
 import Select from 'react-select'
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 
 export default function Edit() {

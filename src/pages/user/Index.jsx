@@ -10,7 +10,7 @@ import PaginationPage from '@/components/PaginationPage';
 import useDebounce from '@/hooks/useDebounce';
 import SearchInput from '@/components/SearchInput';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Index() {
     const { token } = useContext(AppContext);

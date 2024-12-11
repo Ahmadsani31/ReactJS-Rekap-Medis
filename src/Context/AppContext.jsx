@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export const AppContext = createContext();
 

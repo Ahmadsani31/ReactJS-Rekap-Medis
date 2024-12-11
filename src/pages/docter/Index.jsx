@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import PaginationPage from '@/components/PaginationPage';
 import AnimatePulse from '@/components/AnimatePulse';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Index() {
     const { token } = useContext(AppContext);
@@ -158,7 +158,7 @@ export default function Index() {
                                             </td>
                                             <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
                                                 <div className="w-15 rounded-md">
-                                                    <img src={'https://api-medis.adsa.web.id' + packageItem.profil} className='h-auto max-w-full rounded-lg' alt="Product" />
+                                                    <img src={BS_URL + packageItem.profil} className='h-auto max-w-full rounded-lg' alt="Product" />
                                                 </div>
                                             </td>
                                             <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">

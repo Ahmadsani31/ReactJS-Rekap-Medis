@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import PaginationPage from '@/components/PaginationPage';
 import AnimatePulse from '@/components/AnimatePulse';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Index() {
     const { token } = useContext(AppContext);

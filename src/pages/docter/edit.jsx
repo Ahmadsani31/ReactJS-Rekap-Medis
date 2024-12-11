@@ -8,7 +8,7 @@ import ImgExample from '@/images/user/user.png';
 import Select from 'react-select'
 import AnimatePulse from '@/components/AnimatePulse';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Edit() {
     const { token } = useContext(AppContext);
@@ -63,7 +63,7 @@ export default function Edit() {
                     email: dApi.email,
                     profil: dApi.profil ? '' + dApi.profil : null,
                 })
-                setFile('https://medis.adsa.web.id' + dApi.profil);
+                setFile(BS_URL + dApi.profil);
 
             }).catch((err) => {
                 console.log(err);

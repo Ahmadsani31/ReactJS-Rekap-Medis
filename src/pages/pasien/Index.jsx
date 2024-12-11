@@ -11,7 +11,7 @@ import AnimatePulse from '@/components/AnimatePulse';
 import SearchInput from '@/components/SearchInput';
 import useDebounce from '@/hooks/useDebounce';
 
-import API_URL from '@/config/api';
+import { API_URL, BS_URL } from '@/config/api';
 
 export default function Index() {
     const { token } = useContext(AppContext);
